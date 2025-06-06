@@ -1,0 +1,163 @@
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.register-page {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.register-img {
+  width: 48vw;
+  background-image: url('/register.svg');
+  background-size: cover;
+}
+
+.register-form {
+  width: 52vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #fbfbfb, #185170);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 150px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo-img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-text {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 600;
+  align-self: center;
+}
+
+.welcome {
+  font-size: 18px;
+  font-weight: 550;
+  color: #000000;
+}
+
+.register-title {
+  font-size: 24px;
+  margin:  5px 5px;
+  color: #242831;
+  font-weight: 600;
+}
+
+.subtitle {
+  text-align: center;
+  color: #3A3A3A;
+  margin-bottom: 5px;
+}
+
+
+.sign {
+  font-size: 14px;
+  color: #3A3A3A;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.label {
+  align-self: flex-start;
+  font-size: 15px;
+  margin: 5px 0 5px;
+  color: #000;
+  font-weight: 570;
+}
+
+.input-field {
+  width: 100%;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid #6B8F71;
+  margin-bottom: 10px;
+  outline: none;
+}
+.input-field::placeholder {
+  color: #5A5A5A;
+  font-weight: 100;
+  padding-left: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #237aa8, #0e2f45);
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.login {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #5A5A5A;
+}
+a{
+    text-decoration: none;
+    color:  linear-gradient(135deg, #fbfbfb, #185170);
+}
+.social-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.social-btn {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #13361C;
+  border-radius: 30px;
+  padding: 5px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: transparent;
+  color: #000000;
+  transition: background-color 0.2s ease;
+}
+
+.social-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.google-btn {
+  border-color: #13361C;
+}
+
+.apple-btn {
+  border-color: #13361C;
+}
+
+.icon {
+  font-size: 15px;
+}
+
+.btn-text {
+  white-space: nowrap;
+}
