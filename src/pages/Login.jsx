@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 import './Login.css';
+import { useNavigate } from 'react-router-dom';
+
+
+
+
 
 function Login() {
+  const navigate = useNavigate();
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -31,7 +37,7 @@ function Login() {
     if (matchedUser) {
       alert(`Login Successful! Welcome ${matchedUser.name}`);
       localStorage.setItem('currentUser', JSON.stringify(matchedUser));
-      window.location.href = '/home'; 
+       navigate('/home');
     } else {
       alert('Invalid name, email, or password.');
     }

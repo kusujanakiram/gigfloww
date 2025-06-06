@@ -53,7 +53,7 @@ function Register() {
     localStorage.setItem('currentUser', form.name);
 
     alert('Registered Successfully!');
-    navigate('/login'); // modern clean navigation
+    navigate('/login'); 
   };
 
   return (
