@@ -59,6 +59,4 @@ The app is deployed on Vercel and can be accessed here:
 
 Janakiram Kusu
 
----
 
-Thank you .
