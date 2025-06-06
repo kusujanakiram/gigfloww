@@ -1,6 +1,6 @@
 # Gigfloww
 
-**Live Demo:** [https://vercel.com/kusu-janakirams-projects/gigfloww](https://vercel.com/kusu-janakirams-projects/gigfloww)
+**Live Demo:** [Click Here](https://gigfloww-iota.vercel.app/)
 
 A web application for seamless HR operations, including user registration, login, and dashboard UI.
 
