@@ -14,7 +14,7 @@ function Navbar() {
         <span className="logo-text">GIGFLOWW</span>
       </div>
       <div className="navbar-center">
-        <Link to="/dashboard" className={isActive("/dashboard") ? "active" : ""}>Dashboard</Link>
+        <Link to="/home" className={isActive("/dashboard") ? "active" : ""}>Dashboard</Link>
         <Link to="/people" className={isActive("/people") ? "" : ""}>People</Link>
         <Link to="/hiring" className={isActive("/hiring") ? "" : ""}>Hiring</Link>
         <Link to="/salary" className={isActive("/salary") ? "" : ""}>Salary</Link>
